@@ -16,3 +16,8 @@ python -m http.server --cgi
 ```
 
 And visiting your script by pointing your browser to `http://localhost:PORT/cgi-bin/YOUR_SCRIPT`
+
+You can deploy the CGI script by copying it into the correct directory on the server. 
+See `deploy.sh`
+
+Be sure to set your nginx configuration as shown in `nginx-config.txt`
