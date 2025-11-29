@@ -1,4 +1,4 @@
-#!/Users/vijay.balasubramaniam/anaconda3/bin/python
+#!/usr/bin/env python
 from bottle import Bottle, run
 
 app = Bottle()
